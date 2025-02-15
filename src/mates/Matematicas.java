@@ -23,6 +23,7 @@ public class Matematicas{
      * * generado.
      * */
     public static double generarNumeroPiIterativo(long pasos){
-        return 0; // Este código hay que cambiarlo.
+        return 0; 
+        // Este código hay que CAMBIARLOOOOO.
     }
 }
