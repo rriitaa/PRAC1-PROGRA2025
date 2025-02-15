@@ -25,5 +25,23 @@ public class Matematicas{
     public static double generarNumeroPiIterativo(long pasos){
         return 0; 
         // Este código hay que CAMBIARLOOOOO.
+        int i = 0;
+		int count = 0;
+
+		double pi;
+
+		double x = 0;
+		double y = 0;
     }
 }
+
+//este es mi codigo
+//el metodo montecarlo te saca el numero pi con numeros aleatorios
+//area circulo = pi*r^2
+//area cuadrado = 2r*2r = 4r^2
+//(area circulo)/(area cuadrado) = (pi*r^2)/(4r^2) = pi/4
+//(area circulo/area cuadrado) * 4 = pi
+//int i y count son mis contadores
+//vas a inicializar los contadores
+//voy a poner todo = 0 para darle un valor inicial
+//uso double para que pueda usar numeros decimales
