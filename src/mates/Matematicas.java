@@ -43,7 +43,7 @@ public class Matematicas{
 
 		}
 
-        
+
 
 		pi = 4.0 * ((float) count / (float) pasos);
         	return pi;
@@ -61,3 +61,11 @@ public class Matematicas{
 //vas a inicializar los contadores
 //voy a poner todo = 0 para darle un valor inicial
 //uso double para que pueda usar numeros decimales
+//x e y van a ser mis lados donde, x=horizontal e y=vertical
+//comparamos el conteo de i siendo menor que la cantidad de posiciones de pi que deseamos
+//el while lo va a hacer 100 mil veces
+//cuando usamos math.ramdom es un metodo para que calcule un numero aleatorio
+//hace una condicion que es la formula del metodo: ((x * x) + (y * y) < 1)
+//((x * x) + (y * y) < 1) va a ser mi formula
+//usamos el i++ para que no sea un bucle infinito
+//la ultima linea del codigo return pi: te devuelve el numero pi
