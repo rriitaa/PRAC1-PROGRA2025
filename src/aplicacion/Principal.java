@@ -30,3 +30,6 @@ public class Principal {
     }
 }
 
+//ejecuto con: 
+//javac -d . aplicacion/Principal.java mates/Matematicas.java
+//java aplicacion.Principal 100000
