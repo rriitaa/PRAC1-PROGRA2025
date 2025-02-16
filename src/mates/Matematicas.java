@@ -23,8 +23,6 @@ public class Matematicas{
      * * generado.
      * */
     public static double generarNumeroPiIterativo(long pasos){
-        return 0; 
-        // Este código hay que CAMBIARLOOOOO.
         int i = 0;
 		int count = 0;
 
@@ -32,6 +30,24 @@ public class Matematicas{
 
 		double x = 0;
 		double y = 0;
+
+        while(i < pasos) {
+
+			x = Math.random();
+			y = Math.random();
+
+			if ((x * x) + (y * y) < 1) {
+				count++;
+			}
+			i++;
+
+		}
+
+        
+
+		pi = 4.0 * ((float) count / (float) pasos);
+        	return pi;
+
     }
 }
 
